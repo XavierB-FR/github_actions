@@ -2,7 +2,8 @@ name: Multiple shells commands
 on:
   push:
     branches:
-      - "main"
+# Le nom de la branche est "master"     - "main"
+      - "master"
   pull_request:
     types: [closed, assigned, opened, reopened]
 jobs:
