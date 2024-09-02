@@ -20,7 +20,6 @@ jobs:
 
       - name: Run tests
         run: |
-#          pytest /home/runner/work/github_actions/github_actions/.github/workflows/file_test.py
           pytest ~/.github/workflows/file_test.py
 
       - name: Run flake8
