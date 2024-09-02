@@ -8,8 +8,7 @@ jobs:
         os: [ubuntu-latest, ubuntu-20.04]
     steps:
       - name: echo a string
-#        run: echo "Hello world"
-        run: echoooo "Hello world"
+        run: echo "Hello world - This is my very first GitHub action triggered on push"
       - name: multiline script
         run: |
           python3 -V
